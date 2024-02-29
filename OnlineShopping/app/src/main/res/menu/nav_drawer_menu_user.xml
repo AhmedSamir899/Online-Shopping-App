@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/My_cart_page"
+        android:title="My cart"
+        android:icon="@drawable/shopping_cart_user"
+        />
+    <item
+        android:id="@+id/logou_user"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        />
+
+</menu>

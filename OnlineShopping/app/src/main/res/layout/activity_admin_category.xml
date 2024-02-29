@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFunctions.AdminCategory"
+    android:background="#1c0202">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Category"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"/>
+
+
+        <EditText
+            android:id="@+id/Category_name"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/cardview_light_background"
+            android:hint="Category name to add"
+            android:textColorHint="@color/cardview_light_background"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/select_category"
+            android:textColorHint="@color/cardview_light_background"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_category22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="@color/cardview_light_background"
+                android:inputType="none"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="425dp"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/select_category"
+            android:textColorHint="@color/cardview_light_background"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="@color/cardview_light_background"
+                android:inputType="none"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/New_Name"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/cardview_light_background"
+            android:hint="Category New Name"
+            android:textColorHint="@color/cardview_light_background"
+            />
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/login_reg_back" />
+        <Button
+            android:id="@+id/add_Category"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:background="#00000000"
+            android:text="Add"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="360dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_reg_back" />
+        <Button
+            android:id="@+id/delete_Cate"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="360dp"
+            android:layout_centerHorizontal="true"
+            android:background="#00000000"
+            android:text="Delete"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/login_reg_back" />
+        <Button
+            android:id="@+id/Update_cate"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="570dp"
+            android:background="#00000000"
+            android:text="Update"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/backpage"
+            android:src="@drawable/back"
+            android:layout_width="60dp"
+            android:background="#00000000"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:padding="15dp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
